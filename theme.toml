@@ -3,9 +3,9 @@
 
 name = "LeaveIt"
 license = "MIT"
-licenselink = "https://github.com/liuzc/LeaveIt/blob/master/LICENSE"
+licenselink = "https://github.com/tarsolya/LeaveIt/blob/master/LICENSE"
 description = "A simple, clean blog theme for hugo."
-homepage = "https://liuzhichao.com/"
+homepage = "https://tarsolya.me"
 tags = [
   "blog",
   "minimal",
@@ -26,5 +26,5 @@ features = [
 min_version = "0.41"
 
 [author]
-  name = "LiuZhichao"
-  homepage = "https://liuzhichao.com/"
+  name = "András Tarsoly"
+  homepage = "https://tarsolya.me/"

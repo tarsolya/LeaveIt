@@ -1,30 +1,41 @@
-  
 
+.navbar {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 9pt;
+  letter-spacing: 3px;
+  font-weight: 400;
+  text-transform: uppercase;
 
-  .header-logo a{
-    padding: 0 ;
+  a {
+    color: $light-navbar-item-color;
 
-    i{
-      line-height: 2em;
+    &.active {
+      color: $light-navbar-active-color;
+    }
+
+    &:hover {
+      background: transparent;
     }
   }
-  
-  
- .navbar .menu a {
-   
-    padding: 0 8px;
-  }
 
-  .navbar .menu .active{
-      font-weight: 900;
-      color: $light-navbar-active-color;
+  .header-logo {
+    font-size: 10pt;
 
-      .dark-theme &{
-        color: $dark-navbar-active-color;
+    a {
+      padding: 0;
+      i {
+        line-height: 2em;
       }
+    }
   }
-  
-  .navbar-header a:hover, .navbar .menu a:hover {
-    
+
+  .menu {
+    a {
+      padding: 0 12px;
+    }
+  }
+
+  .navbar-header a:hover {
     background-color: transparent;
   }
+}
